@@ -1,0 +1,143 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"845d2004",
+					"d0fa9c62"
+				],
+				"isRemovable": true,
+				"name": "page1",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_AROUND"
+				},
+				"orientation": "PORTRAIT",
+				"paddingLeft": 0,
+				"paddingRight": 10
+			},
+			"version": "6.8.2"
+		},
+		{
+			"className": ".statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "RUSSIAN ROULETTE"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"backgroundColor": "rgba( 0, 0, 0, 1 )",
+				"title": "RUSSIAN ROULETTE",
+				"titleColor": "rgba( 189, 4, 4, 1 )",
+				"visible": true
+			}
+		},
+		{
+			"className": ".imageView",
+			"id": "845d2004",
+			"props": {
+				"autoHeight": 53.48837209302326,
+				"children": [],
+				"name": "img",
+				"parent": "e891b86d",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 53.48837209302326,
+				"bottom": 15,
+				"flexProps": {
+					"marginLeft": 20,
+					"marginRight": 20,
+					"alignSelf": "FLEX_START"
+				},
+				"height": 485.2181654710036,
+				"image": "smartface.png",
+				"left": -35,
+				"usePageVariable": true,
+				"width": 436.92304171048676
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"id": "d0fa9c62",
+			"props": {
+				"children": [
+					"48653d59"
+				],
+				"name": "flexlayout",
+				"parent": "e891b86d",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {
+					"justifyContent": "SPACE_BETWEEN",
+					"alignSelf": "STRETCH",
+					"marginLeft": 20,
+					"marginRight": 20
+				},
+				"height": 60.0553219134991,
+				"marginLeft": null,
+				"marginRight": null,
+				"marginTop": 10,
+				"paddingBottom": 15,
+				"usePageVariable": true,
+				"width": 359.28077697753906
+			}
+		},
+		{
+			"className": ".button",
+			"id": "48653d59",
+			"props": {
+				"children": [],
+				"name": "btn",
+				"parent": "d0fa9c62",
+				"text": "PLAY",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"font": {
+					"color": "rgba( 255, 255, 255, 1 )"
+				},
+				"height": 63.8461553133451,
+				"text": "PLAY",
+				"usePageVariable": true,
+				"width": 378.5115462083083
+			}
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "52cc-c9d2-e8b5-4017",
+			"initialized": true,
+			"props": {
+				"children": [
+					"d558-7ca0-8d61-f1b6",
+					"29e5-7185-96a3-86f5",
+					"62d0-62db-8bf5-46ee"
+				],
+				"name": "page0",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"backgroundColor": "rgba( 0, 0, 0, 1 )",
+				"flexProps": {
+					"justifyContent": "FLEX_START"
+				}
+			},
+			"version": "6.8.2"
+		},
+		{
+			"className": ".statusBar",
+			"id": "d558-7ca0-8d61-f1b6",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "52cc-c9d2-e8b5-4017"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".headerBar",
+			"id": "29e5-7185-96a3-86f5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "52cc-c9d2-e8b5-4017",
+				"title": "RUSSIAN ROULETTE"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"backgroundColor": "rgba( 0, 0, 0, 1 )",
+				"title": "RUSSIAN ROULETTE",
+				"titleColor": "rgba( 196, 0, 0, 1 )"
+			}
+		},
+		{
+			"className": ".imageView",
+			"id": "62d0-62db-8bf5-46ee",
+			"props": {
+				"children": [],
+				"name": "img",
+				"parent": "52cc-c9d2-e8b5-4017",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "FLEX_START",
+					"positionType": "RELATIVE"
+				},
+				"height": 662.9905700683594,
+				"left": -8.076922710125263,
+				"marginLeft": -10,
+				"marginTop": -45,
+				"top": -44.99999926640437,
+				"usePageVariable": true,
+				"width": 415.77708904559796
+			}
+		}
+	]
+}

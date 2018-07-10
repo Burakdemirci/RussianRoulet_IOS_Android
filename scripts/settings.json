@@ -1,0 +1,13 @@
+{
+	"config": {
+		"theme": {
+			"currentTheme": "russianrouletTheme",
+			"themes": [
+				"defaultTheme",
+				"russianrouletTheme"
+			],
+			"baseTheme": "russianrouletTheme"
+		},
+		"version": "6.8.2"
+	}
+}
